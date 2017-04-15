@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> 
+
+    <link href="css/default_layout.css" rel="stylesheet">
+
+    <link href = "font-awesome/css/font-awesome.min.css" rel = "stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/details.css" rel="stylesheet">
+
+    <script src = "js/details.js"></script>
+
+    <!-- Custom Fonts -->
+    
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+
+
+    <!-- Navigation -->
+     <nav id="navcontainer" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div id="nav">
+                <a href="index.html"><img id="logo" src="img/logo_text2.png" alt="FundFuture"></a>
+                <a class="navbar-brand special" href="index.html">Explore</a>
+                <!-- reverse order for float right -->
+                <a class="navbar-brand f_right special" href="#"> Start a Campaign </a>
+                <a class="navbar-brand f_right" href="#"> Sign In </a>
+                <a class="navbar-brand f_right" href="#"> Sponsors </a>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container" style = "padding-bottom:50px;">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <!--<div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Blog Post
+                    <small>by <a href="#">Start Bootstrap</a>
+                    </small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Blog Post</li>
+                </ol>
+            </div>
+        </div>-->
+        <!-- /.row -->
+
+        <!-- Content Row -->
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+
+                <!-- Blog Post -->
+
+                <hr>
+
+                <!-- Date/Time -->
+                <p><i class="fa fa-clock-o"></i> Created April 14, 2017 at 9:00 PM</p>
+
+                <hr>
+
+                <!-- Preview Image -->
+                <img class="img-responsive" src="img/school1.jpg" alt="" style = "max-height: 250px; min-height: 250px; min-width: 750px; max-width: 750px;">
+
+                <hr>
+
+                <!-- Post Content -->
+                
+
+                <hr>
+
+
+                <div class="tab">
+                    <button class="tablinks" id = "defaultOpen" onclick="openCity(event, 'description')">Description</button>
+                    <button class="tablinks" onclick="openCity(event, 'updates')">Updates</button>
+                    <button class="tablinks" onclick="openCity(event, 'qa')">Q&ampA</button>
+                </div>
+
+                <div id="description" class="tabcontent" style = "background-color:#f1f1f1;">
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
+                </div>
+
+                <div id="updates" class="tabcontent" style = "background-color:#f1f1f1;">
+                    <h3>Updates</h3>
+                    <h4>4/15/2017</h4>
+                    <p>Thank you to everyone who helped! We are now able to provide textbooks to each student in our school!</p> 
+                </div>
+
+                <div id="qa" class="tabcontent" style = "background-color:#f1f1f1;">
+                    <h3>Q&ampA</h3><br>
+                    <p><b>What do we do after we have donated?</b></p>
+                    <p>You can follow up on your school that you have sponsored! The effects are not always immediate, but if you check back frequently there will be some significant progress to the school which you have donated to. Additionally, the school will keep you posted on its status through the Updates tab on the donation page.</p>
+                </div>
+
+                    <script>
+                    //default click on defaultOpen
+                    document.getElementById("defaultOpen").click();
+                    </script>
+
+
+
+
+
+                <!-- Blog Comments -->
+
+                <!-- Comments Form -->
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- Posted Comments -->
+
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Start Bootstrap
+                            <small>August 25, 2014 at 9:30 PM</small>
+                        </h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Start Bootstrap
+                            <small>August 25, 2014 at 9:30 PM</small>
+                        </h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        <!-- Nested Comment -->
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object" src="http://placehold.it/64x64" alt="">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Nested Start Bootstrap
+                                    <small>August 25, 2014 at 9:30 PM</small>
+                                </h4>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                            </div>
+                        </div>
+                        <!-- End Nested Comment -->
+                    </div>
+                </div>
+
+            </div>
+
+
+        <!-- MODAL STUFF -->
+        <div class="modal fade" id="myModal" role="dialog" style="display: none;">
+        <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Donate!</h4>
+            </div>
+            <div class="modal-body">
+                <form action="Home2.php" method="post" style="text-align:left;">
+                    <div class="form-inline">
+                        <label for="exampleTextarea">Card Holder</label><br>
+                        <textarea class="form-control" id="Name" name="name" rows="1" placeholder="Enter full name"></textarea><br>        
+                     </div>
+
+                     <br>
+
+                     <div class = "form-inline">
+                        <label for="exampleTextarea">Card Number</label><br>
+                        <textarea class="form-control" id="c1" name="c1" rows="1" placeholder="XXXX" style = "width:66px" maxlength="4"></textarea>
+                        <textarea class="form-control" id="c2" name="c2" rows="1" placeholder="XXXX" style = "width:66px" maxlength="4"></textarea>
+                        <textarea class="form-control" id="c3" name="c3" rows="1" placeholder="XXXX" style = "width:66px" maxlength="4"></textarea>
+                        <textarea class="form-control" id="c4" name="c4" rows="1" placeholder="XXXX" style = "width:66px" maxlength="4"></textarea><br>
+                     </div>
+
+                     <br>
+
+                    <div class="form-inline">
+                        <label for="exampleTextarea">Expiration Date</label><br> 
+                        <select class="form-control" id="sel1">
+                            <option>MM</option>
+                            <option>01</option>
+                            <option>02</option>
+                            <option>03</option>
+                            <option>04</option>
+                            <option>05</option>
+                            <option>06</option>
+                            <option>07</option>
+                            <option>08</option>
+                            <option>09</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                        </select>
+
+                        <select class="form-control" id="sel1">
+                            <option>YYYY</option>
+                            <option>2017</option>
+                            <option>2018</option>
+                            <option>2019</option>
+                            <option>2020</option>
+                            <option>2021</option>
+                            <option>2022</option>
+                            <option>2023</option>
+                            <option>2024</option>
+                            <option>2025</option>
+                            <option>2026</option>
+                            <option>2027</option>
+                            <option>2028</option>
+                            <option>2029</option>
+                            <option>2030</option>
+                            <option>2031</option>
+                            <option>2032</option>
+                            <option>2033</option>
+                            <option>2034</option>
+                            <option>2035</option>
+                            <option>2036</option>
+                            <option>2037</option>
+                            <option>2038</option>
+                            <option>2039</option>
+                            <option>2040</option>
+                            <option>2041</option>
+                        </select>
+
+                    </div>
+
+                    <br>
+
+                    <div class = "form-inline">
+                            <label for="exampleTextarea">CVC</label><br>
+                            <textarea class="form-control" id="cvv" name="cvv" rows="1" placeholder="XXX" style = "width:62px" maxlength="XXX"></textarea>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Confirm</button>
+            </div>
+      </div>
+      
+    </div>
+    </div>
+
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+                <!-- Blog Search Well -->
+                <div class="well">
+                    <h3>Title</h3>
+                    <p>The abstract would go here, summarizing quickly what the school is undergoing and what it may need. This is a short description, the longer version can be found in the actual description.</p>
+                    <br>
+                    <h4><a href = "">School Name</a></h4>
+                    <br>
+                    <p>Goal: $30,000</p>
+                    <div class="progress">
+
+                            <div class="progress-bar bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                <p>$21,000</p>
+                                <span class="sr-only">70% Complete</span>
+                            </div>
+                    </div>
+                    <center><button type="button" class="btn btn-success btn-default btn-md" data-toggle="modal" data-target="#myModal">Donate Now!</button></center>
+
+                    <br>
+
+                    <ul class="list-unstyled list-inline list-social-icons">
+                    <li>
+                        <a href = "https://www.facebook.com/"><i class="fa fa-facebook-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/feed/" style = "color:#0077b5"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/" style = "color:#0084b4"><i class="fa fa-twitter-square fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/" style = "color:#dd4b39"><i class="fa fa-google-plus-square fa-2x"></i></a>
+                    </li>
+                    </ul>
+
+
+
+
+
+                    <!-- /.input-group -->
+                </div> 
+
+                <!-- Blog Categories Well -->
+                <div class="well">
+                    <h4>Donation History</h4> <br>  
+                    <div class = "item"  style = "display:inline-block;">
+                        <img src = "img/cat1.jpg" style = "max-height: 30px; min-height: 30px; min-width: 30px; max-width: 30px; float:left;">                  
+                        <p style = "float:left;">&nbsp &nbsp Lily just donated $10</p>
+                    </div> 
+                    <br>
+
+                    <div class = "item"  style = "display:inline-block;">
+                        <img src = "img/cat2.jpg" style = "max-height: 30px; min-height: 30px; min-width: 30px; max-width: 30px; float:left;">                  
+                        <p style = "float:left;">&nbsp &nbsp Bily just donated $10</p>
+                    </div> 
+                    <br>
+
+                    <div class = "item"  style = "display:inline-block;">
+                        <img src = "img/cat3.jpg" style = "max-height: 30px; min-height: 30px; min-width: 30px; max-width: 30px; float:left;">                  
+                        <p style = "float:left;">&nbsp &nbsp Mily just donated $10</p>
+                    </div> 
+                    <br>
+                    <div class = "item"  style = "display:inline-block;">
+                        <img src = "img/cat4.jpg" style = "max-height: 30px; min-height: 30px; min-width: 30px; max-width: 30px; float:left;">                  
+                        <p style = "float:left;">&nbsp &nbsp Tily just donated $10</p>
+                    </div> 
+                    <br>
+                    <div class = "item"  style = "display:inline-block;">
+                        <img src = "img/cat5.jpg" style = "max-height: 30px; min-height: 30px; min-width: 30px; max-width: 30px; float:left;">                  
+                        <p style = "float:left;">&nbsp &nbsp Sily just donated $10</p>
+                    </div> 
+                    <br>
+                    <div class = "item"  style = "display:inline-block;">
+                        <img src = "img/cat6.jpg" style = "max-height: 30px; min-height: 30px; min-width: 30px; max-width: 30px; float:left;">                  
+                        <p style = "float:left;">&nbsp &nbsp Vily just donated $10</p>
+                    </div> 
+                    <br>
+                    
+                    <!-- /.row -->
+                </div>
+
+                <!-- Side Widget Well -->
+                <div class="well">
+                    <h4>Campaign History</h4>
+
+                    <div class = "camp" style = "display:inline-block">
+                        <a href = "#"><img src = "img/cat1.jpg" style = "max-height: 70px; min-height: 70px; min-width: 100px; max-width: 100px; float:left;"></a>
+                        <a href = "#"><p style = "float:left">&nbsp &nbsp Buying books</p></a><br>
+                    </div> <br> <br>
+
+                    <div class = "camp" style = "display:inline-block">
+                        <a href = "#"><img src = "img/cat1.jpg" style = "max-height: 70px; min-height: 70px; min-width: 100px; max-width: 100px; float:left;"></a>
+                        <a href = "#"><p style = "float:left">&nbsp &nbsp Buying tables</p></a><br>
+                    </div> <br> <br>
+
+                    <div class = "camp" style = "display:inline-block">
+                        <a href = "#"><img src = "img/cat1.jpg" style = "max-height: 70px; min-height: 70px; min-width: 100px; max-width: 100px; float:left;"></a>
+                        <a href = "#"><p style = "float:left">&nbsp &nbsp Money for pencils and paper</p></a><br>
+                    </div> <br> <br>
+
+                    <div class = "camp" style = "display:inline-block">
+                        <a href = "#"><img src = "img/cat1.jpg" style = "max-height: 70px; min-height: 70px; min-width: 100px; max-width: 100px; float:left;"></a>
+                        <a href = "#"><p style = "float:left">&nbsp &nbsp Fans for the classroom</p></a><br>
+                    </div> <br> <br>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        </div>
+    <!-- /.container -->
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <center>
+                        <p>Contact Us: contact@FundingFuture.org</p>
+                        <p>Address: 500 El Camino Real, Santa Clara, CA</p>
+                        <p>Copyright &copy; Bronco Hack 2017 FundingFuture</p>
+                    </center>
+                </div>
+            </div>
+        </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
