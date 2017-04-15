@@ -1,0 +1,13 @@
+.img
+{
+    height: 205.703px;
+    width: 360px;
+}
+
+.bottomleft {
+    position: absolute;
+    top: 165px;
+    left: 12px;
+    font-size: 18px;
+
+}
