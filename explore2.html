@@ -4,41 +4,37 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <title>Modern Business - Start Bootstrap Template</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> 
+    <!-- Bootstrap core CSS -->
+    <link href="test/bootstrap.min.css" rel="stylesheet">
 
-    <link href="css/default_layout.css" rel="stylesheet">
+    <link href="css/explore.css" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet" type="text/css">
 
-    <!-- Custom CSS -->
-    <link href="css/explore.css" rel="stylesheet">
-
-
-    <!-- Custom Fonts -->
+    <!-- Temporary navbar container fix -->
+    <style>
+    .navbar-toggler {
+        z-index: 1;
+    }
     
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+    </style>
 
 </head>
 
 <body>
 
-
-
-
     <!-- Navigation -->
-     <nav id="navcontainer" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav id="navcontainer" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div id="nav">
@@ -46,14 +42,14 @@
                 <a class="navbar-brand special" href="index.html">Explore</a>
                 <!-- reverse order for float right -->
                 <a class="navbar-brand f_right special" href="#"> Start a Campaign </a>
-                <a class="navbar-brand f_right" href="#"> Sign In </a>
+                <a class="navbar-brand f_right" href="#"> Sign Up </a>
                 <a class="navbar-brand f_right" href="#"> Sponsors </a>
             </div>
         </div>
         <!-- /.container -->
     </nav>
 
-
+    <!-- Page Content -->
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
@@ -70,7 +66,7 @@
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="card h-100">
                     
-                    <a href="#"><img class="card-img-top img-fluid image-limit" src="img/cat1.jpg" alt=""></a>
+                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
                     <p class = "bottomleft" style = "color:white;">Current Money</p>
                     <div class="progress">
                             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%">
@@ -89,7 +85,7 @@
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="card h-100">
                     
-                    <a href="#"><img class="card-img-top img-fluid image-limit" src="http://placehold.it/700x400" alt=""></a>
+                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
                     <p class = "bottomleft" style = "color:white;">Current Money</p>
                     <div class="progress">
                             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
@@ -108,7 +104,7 @@
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="card h-100">
                     
-                    <a href="#"><img class="card-img-top img-fluid image-limit" src="http://placehold.it/700x400" alt=""></a>
+                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
                     <p class = "bottomleft" style = "color:white;">Current Money</p>
                     <div class="progress">
                             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:100%">
@@ -127,7 +123,7 @@
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="card h-100">
                     
-                    <a href="#"><img class="card-img-top img-fluid image-limit" src="http://placehold.it/700x400" alt=""></a>
+                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
                     <p class = "bottomleft" style = "color:white;">Current Money</p>
                     <div class="progress">
                             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:5%">
@@ -146,7 +142,7 @@
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="card h-100">
                     
-                    <a href="#"><img class="card-img-top img-fluid image-limit" src="http://placehold.it/700x400" alt=""></a>
+                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
                     <p class = "bottomleft" style = "color:white;">Current Money</p>
                     <div class="progress">
                             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%">
@@ -165,7 +161,7 @@
             <div class="col-lg-4 col-sm-6 portfolio-item">
                 <div class="card h-100">
                     
-                    <a href="#"><img class="card-img-top img-fluid image-limit" src="http://placehold.it/700x400" alt=""></a>
+                    <a href="#"><img class="card-img-top img-fluid" src="http://placehold.it/700x400" alt=""></a>
                     <p class = "bottomleft" style = "color:white;">Current Money</p>
                     <div class="progress">
                             <div class="progress-bar bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:30%">
@@ -205,31 +201,17 @@
     <!-- /.container -->
 
     <!-- Footer -->
-     <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <center>
-                        <p>Contact Us: contact@FundingFuture.org</p>
-                        <p>Address: 500 El Camino Real, Santa Clara, CA</p>
-                        <p>Copyright &copy; Bronco Hack 2017 FundingFuture</p>
-                    </center>
-                </div>
-            </div>
-        </footer>
+    <footer class="py-5 bg-inverse">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Bronco Hack 2017 Funding Future</p>
+        </div>
+        <!-- /.container -->
+    </footer>
 
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
+    <!-- Bootstrap core JavaScript -->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tether/tether.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>  -->
 
 </body>
 
