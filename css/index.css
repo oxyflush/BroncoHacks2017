@@ -3,7 +3,7 @@
     width: 100%;
     padding:30px 13px;
     border: 1px solid rgba(0,0,0,.125);
-    background-color: #f5f5f5;;
+    background-color: #fff;;
     box-shadow: 0 1px 1px 1px hsla(0,0%,66%,.67);
 }
 
@@ -47,6 +47,14 @@
 #top_three{
     display:inline-block;
     padding:20px 0;
+}
+
+#top h1{
+    font-size:60px;
+    font-family: Teko, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-left: 10px;
 }
 
 /*special bootstrap.min.css feature not included on this one */
