@@ -5,13 +5,17 @@
 }
 
 .bottomleft {
-    position: absolute;
-    top: 165px;
-    left: 12px;
+    color:white;
     font-size: 18px;
-
+    position: absolute;
+    padding: 5px 10px;
+    top: 160px;
+    background:rgba(3,3,3,0.3);
 }
 
+.progress{
+  border-radius: 0;
+}
 .card {
   position: relative;
   display: -webkit-box;
@@ -34,6 +38,13 @@
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1.25rem;
+  height: 400px;
+}
+
+.donate_button{
+  position: absolute;
+  bottom: 20px;
+  margin-left: 37%;
 }
 
 .card-title {
@@ -353,7 +364,7 @@
 }
 
 .portfolio-item{
-	margin-bottom: 15px;"
+	margin-bottom: 15px;
 }
 
 .pagination {

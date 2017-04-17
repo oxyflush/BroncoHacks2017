@@ -7,7 +7,7 @@ body{
 #navcontainer{
     background-color: white;
     border-color:#105842;
-    box-shadow: 0 0px 1px 0px hsla(136, 39%, 85%, 0.45)
+    box-shadow: 0 1px 1px 1px hsla(136, 39%, 85%, 0.45)
 }
 
 #nav{
@@ -55,3 +55,4 @@ footer{
     background-color: #417505;
     color: white;
 }
+

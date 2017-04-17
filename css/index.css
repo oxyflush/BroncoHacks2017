@@ -1,3 +1,9 @@
+.container {
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 #top{
     display: inline-block;
     width: 100%;
@@ -20,6 +26,10 @@
     overflow:hidden;
 }
 
+#featured_complete{
+    padding-left: 20px;
+}
+
 #featured_des{
     display:inline-block;
     float: right;
@@ -32,12 +42,10 @@
     box-shadow: 0 1px 2px -1px #666;
 }
 
-.feature_img{
-    width:100%;
-}
 
 #featured_money{
-    padding: 20px;
+    padding:10px 20px 5px 15px;
+    
 }
 
 #featured_des .progress{
@@ -47,6 +55,23 @@
 #top_three{
     display:inline-block;
     padding:20px 0;
+    width: 100%;
+}
+
+.feature_img{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+#top_three .bottomleft{
+    color:white;
+    font-size: 26px;
+    position: absolute;
+    padding: 5px 10px;
+    top: 150px;
+    left: 12px;
+    background:rgba(3,3,3,0.3);
 }
 
 #top h1{
@@ -78,14 +103,6 @@
     border-radius:0px;
 }
 
-.bottomleft {
-    position: absolute;
-    top: 165px;
-    left: 12px;
-    font-size: 18px;
-    
-}
-
 .btn{
     margin: 10px 0;
     font-size: 20px;
@@ -98,13 +115,57 @@
 
 #why_us{
     display:inline-block;
-    height: 1500px;
+    height: auto;
     width: 100%;
 }
+.data{
+  /*background-image: url("data.png");*/
+  height: 400px;
+  color: #fff;
+
+  padding: 30px 150px 0px 150px;
+}
+.background-img{
+  height: 100%;
+  width: 100%;
+}
+
+
 
 .why{
     height: 400px;
-    padding: 20px;
+    width: 100%;
+    box-shadow: 1px 1px 1px 1px hsla(0,0%,66%,.67);
+
 }
 
-
+.land-pic{
+  height: 400px;
+  width:50%
+}
+.no-margin{
+  margin: 0px;
+}
+.right-pic{
+  float: left;
+  position: absolute;
+  right:0px;
+  width: 50%;
+}
+.left-pic{
+  float: right;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+.text-area{
+  color: #4a4a4a;
+  padding: 20px;
+}
+.text-area h1{
+  font-size: 50px;
+  font-weight: 600px;
+}
+.title{
+  color: #417505;
+}
